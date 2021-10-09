@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,165 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* Start of Header */
+/* navigation */
+.fa{
+  color:#cec6c6;
+ }
+
+#nav>ul{
+  display: inline;}
+
+#nav li{
+display: inline;
+padding: 15px;
+  margin: 14px;
+}
+
+li>a{ 
+color:#cec6c6; 
+text-decoration: none;
+} 
+li>a:hover,.fa:hover{
+color: #ffffff;}	
+#nav{
+background-color:#181414;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  
+}
+/* end of navigation */
+
+#covid>a{
+  text-decoration: none;
+  color: #ffffff;
+}
+#covid{
+  background-color:  #0051ffd0;
+  padding: 3px;
+  margin-top: 40px;
+}
+#covid p{
+  text-align: center;
+}
+
+#online a{
+  text-decoration: none;
+  color: #0051ffd0;
+  font-weight: bold;
+}
+#online{
+  background-color: #f1ecec;
+  padding: 3px;
+}
+#online p{
+  text-align: center;
+  color:#4b4848 ;
+}
+#online a:hover{
+  text-decoration:underline ;
+}
+/* End of Header */
+/* background 1 */
+#bg>h1{
+  font-size: 45px;
+  text-align: center;
+  color:#252323 ;
+  
+}
+#bg>h2{
+font-size: 20px;
+text-align: center;
+color:#4b4848 ;
+}
+#bg>p{
+  font-size: 15px;
+  text-align: center;
+  color:#4b4848 ;
+}
+
+#bg a:hover{
+  text-decoration: underline;
+}
+#bg>img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;  
+}
+/* end of background 1 */
+
+/* background 2 */
+#bg2{
+ background-color: #000000;
+}
+#bg2>h1{
+  font-size: 45px;
+  text-align: center;
+  color:#ffffff ;
+  padding-top:30px ;
+  
+}
+#bg2>h2{
+font-size: 20px;
+text-align: center;
+color:#ffffff  ;
+}
+#bg2>p{
+  font-size: 15px;
+  text-align: center;
+  color:#7c7777 ;
+}
+
+#bg2 a:hover{
+  text-decoration: underline;
+}
+#bg2>img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%; 
+height: 300px; 
+}
+/* end of background 2 */
+
+#footer>ul{
+  display: inline-block;
+  list-style-type: none;
+  
+}
+#footer li>a{
+  color: #808080;
+ 
+  
+}
+#footer li>a:hover{
+  text-decoration: underline;
+  
+}
+#footer>p{
+  color:#808080 ;
+  font-size: 12px;
+}
+
+
+#foot>li{
+display: inline;
+border-right: 1px solid grey;
+padding: 5px;
+}
+#flex{
+  display: flex;
+}
+#flex>p{
+  color:#808080 ;
+}
+#flex a:hover{
+  text-decoration: underline;
+  color: #000000;
 }
